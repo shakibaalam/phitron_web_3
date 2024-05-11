@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
+
+*{
+   margin: 0; 
+   padding: 0;
+   font-family: "Poppins", sans-serif;
+
+}
+header button{
+    background-color: #FF4240;
+    border: none;
+    outline: none;
+    color: white;
+}
+header h1,.border_style h2{
+    font-size: 36px;
+    text-align: center;
+    color: #131318;
+}
+header h1 span{
+    color: #FF4240;
+}
+header ul li:nth-child(1){
+    color: #FF4240;
+}
+.carosoul_data{
+    background-color: #131318 !important;
+    color: white !important;
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+}
+.carosoul_data h5{
+    font-size: 24px;
+}
+.carosoul_data p{
+    font-size: 18px;
+}
+li{
+    list-style: none;
+}
+
+.slider .carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+.border_style{
+    border-top: 1px dashed gainsboro;
+    border-bottom: 1px dashed gainsboro;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.border_style p,.club p{
+    font-size: 14px;
+    text-align: center;
+    color: #a7a7b6;
+}
+.club{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;  
+}
+.club h3{
+    font-size: 20px;
+    text-align: center;
+    color: #131318;
+    margin: 5px 0;
+}
+.club div h2{
+    border-radius: 50%;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.club div h2:nth-child(1){
+    border: 10px solid #FF4240;
+}
+.club div h2:nth-child(2){
+    border: 10px solid #49D293;
+}
+.club div h2:nth-child(3){
+    border: 10px solid #FFB546;
+}
+.club div h2:nth-child(4){
+    border: 10px solid #4C8DF1;
+}
+.grid_2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.grid_2 div,.program div:nth-child(3){
+    padding: 20px;
+    border-radius: 10px;
+    color: white ;
+    height: 300px;
+    margin: auto 0;
+}
+.grid_2 div h3,.program div:nth-child(3) h3{
+    font-size: 28px;
+}
+.grid_2 div p,.program div:nth-child(3) p{
+    font-size: 14px;
+}
+.grid_2 div button,.program div:nth-child(3) button{
+    background-color: #FF4240;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+.grid_2 div:nth-child(1){
+    background: url('./Images/2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid_2 div:nth-child(2){
+    background: url('./Images/3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.program div:nth-child(3){
+    background: url('./Images/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.product_card,.client_div,.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-items: center;
+}
+.product_card .pro_card{
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+.product_card .pro_card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: gainsboro;
+}
+.pro_card div div{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #131318;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
